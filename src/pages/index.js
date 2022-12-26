@@ -20,7 +20,7 @@ const Home = () => {
     <HeroSection/>
     <InfoSection {...homeObjOne}/>
     <InfoSection {...homeObjTwo}/>
-    <Footer/>
+    
     
     </>
   )

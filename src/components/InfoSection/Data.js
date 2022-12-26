@@ -21,7 +21,7 @@ export const homeObjTwo = {
     lightText: false,
     lightTextDesc: false,
     topLine: 'Contacting Us By Phone: 954-348-4251 ',
-    headline: 'Dwyane Thompson - President',
+    headline: 'Dwayne Thompson - President',
     description: 'Address: 2646 Nw 60th avenue Margate FL 33063',
 
     // buttonLabel: 'About Us',
