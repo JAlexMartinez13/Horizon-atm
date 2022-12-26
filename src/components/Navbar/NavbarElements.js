@@ -5,7 +5,7 @@ import { Link as LinkS } from 'react-scroll';
 export const Nav = styled.nav`
   background: #000;
   height: 80px;
-  
+  margin-top: -80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,7 +70,7 @@ export const MobileIcon = styled.div`
     export const NavItem = styled.li`  
     height: 80px;`
 
-    export const NavLinks = styled(LinkR)`
+    export const NavLinks = styled(LinkS)`
     color: #fff;
     display: flex;
     align-items: center;
