@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import Video from '../../videos/video.mp4'
+import Image from '../../images/image.jpg'
+// import Video from '../../videos/video.mp4'
 // import Image from '../../images/image.jpg'
 import { Button } from '../ButtonElements'
 import { HeroContainer,
@@ -24,10 +25,10 @@ const HeroSection = () => {
         <HeroBg>
             {/* <ImageBg src={Image}/> */}
             
-        <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
+        <ImageBg  src={Image} type='image/png'/>
         </HeroBg>
-        <HeroContent>
-            <HeroH1>Welcome to Horizon ATM LLC</HeroH1>
+        {/* <HeroContent> */}
+            <HeroH1></HeroH1>
  
         
             
@@ -42,7 +43,7 @@ const HeroSection = () => {
                     About Us {hover ? <ArrowForward /> : <ArrowRight />}
                 </Button>
             </HeroBtnWrapper>
-        </HeroContent>
+        {/* </HeroContent> */}
     </HeroContainer>
   )
 }

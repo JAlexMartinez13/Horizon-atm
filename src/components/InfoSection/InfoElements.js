@@ -60,6 +60,16 @@ export const TopLine = styled.p`
   margin-bottom: 16px;
   `
 
+export const TopLine2 = styled.p`
+  color: #01bf71;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  `
+
 export const Heading = styled.h1`
   margin-bottom: 24px;
   font-size: 48px;

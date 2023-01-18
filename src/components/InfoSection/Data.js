@@ -20,9 +20,10 @@ export const homeObjTwo = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Contacting Us By Phone: 954-348-4251 ',
+    topLine: 'Contacting Us By Phone: 954-348-4251',
+    topLine2: 'Email: dwayne.thompson@horizonatms.com',
     headline: 'Dwayne Thompson - President',
-    description: 'Address: 2646 Nw 60th avenue Margate FL 33063',
+    description: 'Address: 11555 Heron Bay Blvd. Suite 200, Coral Springs, FL 33076',
 
     // buttonLabel: 'About Us',
     imgStart: true,

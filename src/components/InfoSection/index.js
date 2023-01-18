@@ -1,9 +1,9 @@
 import React from 'react'
 import { Button } from '../ButtonElements'
-import { InfoContainer, InfoWrapper, InfoRow, Column1, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, Column2, ImgWrap,Img } from './InfoElements'
+import { InfoContainer, InfoWrapper, InfoRow, Column1, TextWrapper, TopLine, TopLine2, Heading, Subtitle, BtnWrap, Column2, ImgWrap,Img } from './InfoElements'
 
 
-export const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt, primary, dark,dark2}) => {
+export const InfoSection = ({lightBg, id, imgStart, topLine, topLine2, lightText, headline, darkText, description, buttonLabel, img, alt, primary, dark,dark2}) => {
   return (
     <>
     <InfoContainer lightBg={lightBg} id={id}>
@@ -12,6 +12,7 @@ export const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline
                 <Column1>
                     <TextWrapper>
                         <TopLine>{topLine}</TopLine>
+                        <TopLine2>{topLine2}</TopLine2>
                         <Heading lightText={lightText}>{headline}</Heading>
                         <Subtitle darkText={darkText}>{description}</Subtitle>
                         {/* <BtnWrap>
