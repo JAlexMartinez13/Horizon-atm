@@ -33,3 +33,20 @@ export const homeObjTwo = {
     primary: false,
     darkText: true
 }
+
+export const homeObjThree = {
+    id: 'partners',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Partners',
+    headline: 'Backed by Dell and Lenovo',
+    description: 'We are partnerd with Dell and Lenovo to bring you the most up-to-date technology.',
+    buttonLabel: 'Contact Us',
+    imgStart: false,
+    img: require('../../images/svg-7.svg').default,
+    alt: 'Lenovo and Dell partnership logos',
+    dark: true,
+    primary: true,
+    darkText: false
+}
